@@ -1,0 +1,14 @@
+<ul class="nav nav-tabs">
+  <li class="nav-item">
+    <%= link_to "Home", root_path, class: active_nav_link_class(root_path) %>
+  </li>
+  <li class="nav-item">
+    <%= link_to "Writing", root_path, class: "nav-link" %>
+  </li>
+  <li class="nav-item">
+    <%= link_to "Music", about_path, class: active_nav_link_class(about_path) %>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#">Games</a>
+  </li>
+</ul>

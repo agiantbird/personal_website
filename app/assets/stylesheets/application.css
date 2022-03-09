@@ -13,3 +13,45 @@
  *= require_tree .
  *= require_self
  */
+
+ html {
+ 	background-color: #F1F1F1 !important;
+ }
+
+.nav-tabs-color {
+	background-color: #F1F1F1;
+}
+
+.nav-tab {
+	background-color: #F8D775;
+	color: black !important;
+	/*text-decoration: none;*/
+}
+
+body {
+	background-color: #FFE9A2;
+	width: 90%;
+  margin: 5%;
+}
+
+.nav-item {
+	color: black !important;
+}
+
+a.nav-link {
+	color: black !important;
+}
+
+.nav-link.active {
+	background-color: #FFE9A2 !important;
+	color: black !important;
+	/*text-decoration: none;*/
+}
+
+
+
+
+
+
+
+

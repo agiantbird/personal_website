@@ -1,14 +1,19 @@
-<ul class="nav nav-tabs">
-  <li class="nav-item">
-    <%= link_to "Home", root_path, class: active_nav_link_class(root_path) %>
-  </li>
-  <li class="nav-item">
-    <%= link_to "Writing", root_path, class: "nav-link" %>
-  </li>
-  <li class="nav-item">
-    <%= link_to "Music", about_path, class: active_nav_link_class(about_path) %>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link disabled" href="#">Games</a>
-  </li>
-</ul>
+<div class="l3">
+  <ul class="nav nav-tabs nav-tabs-color">
+    <li class="nav-item nav-tab">
+      <%= link_to "Home", root_path, class: active_nav_link_class(root_path) %>
+    </li>
+    <li class="nav-item nav-tab">
+      <%= link_to "Writing", root_path, class: "nav-link" %>
+    </li>
+    <li class="nav-item nav-tab">
+      <%= link_to "About", about_path, class: active_nav_link_class(about_path) %>
+    </li>
+    <li class="nav-item nav-tab">
+      <%= link_to "Music", music_path, class: active_nav_link_class(music_path) %>
+    </li>
+    <li class="nav-item nav-tab">
+      <a class="nav-link disabled" href="#">Games</a>
+    </li>
+  </ul>
+</div>

@@ -14,6 +14,10 @@
  *= require_self
  */
 
+ * {
+ 	font-family: 'Courier New', Arial, Helvetica, sans-serif;
+ }
+
  html {
  	background-color: #F1F1F1 !important;
  }
@@ -23,9 +27,9 @@
 }
 
 .nav-tab {
+	border-radius: 10px 10px 0px 0px;
 	background-color: #F8D775;
 	color: black !important;
-	/*text-decoration: none;*/
 }
 
 body {
@@ -57,9 +61,10 @@ a.nav-link {
 }
 
 .nav-link.active {
+	border-radius: 10px 10px 0px 0px;
 	background-color: #FFE9A2 !important;
+	border-color: transparent !important;
 	color: black !important;
-	/*text-decoration: none;*/
 }
 
 

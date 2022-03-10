@@ -3,11 +3,12 @@
  }
 
  html {
- 	background-color: #F1F1F1 !important;
+ 	background-color: #c0c3c7 !important;
  }
 
 .nav-tabs-color {
-	background-color: #F1F1F1;
+	background-color: #c0c3c7;
+	border-color: transparent !important;
 }
 
 .nav-tab {
@@ -20,6 +21,7 @@ body {
 	background-color: #FFE9A2;
 	width: 90%;
   margin: 5%;
+  border-radius: 0px 10px 10px 10px;
 }
 
 html, body {
@@ -70,6 +72,16 @@ a.nav-link {
 	/*font-family: 'Courier New', Arial, Helvetica, sans-serif;*/
 	padding-top: 15%;
 	transform: rotate(-11deg);
+}
+
+#music-player {
+	padding-top: 35px;
+	padding-right: 25px;
+}
+
+#book-image {
+	padding-top: 35px;
+	padding-right: 25px;
 }
 
 

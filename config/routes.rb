@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get "about", to: "about#index"
   get "music", to: "music#index"
   get "games", to: "games#index"
+  get "writing", to: "writing#index"
   #root
   root to: "home#index"
 end

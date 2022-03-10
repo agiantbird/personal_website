@@ -4,16 +4,16 @@
       <%= link_to "\u00A0 \u00A0 \u00A0 \u00A0", root_path, class: active_nav_link_class(root_path) %>
     </li>
     <li class="nav-item nav-tab">
-      <%= link_to "Writing", root_path, class: "nav-link" %>
-    </li>
-    <li class="nav-item nav-tab">
-      <%= link_to "About", about_path, class: active_nav_link_class(about_path) %>
+      <%= link_to "Writing", writing_path, class: active_nav_link_class(writing_path) %>
     </li>
     <li class="nav-item nav-tab">
       <%= link_to "Music", music_path, class: active_nav_link_class(music_path) %>
     </li>
     <li class="nav-item nav-tab">
       <%= link_to "Games", games_path, class: active_nav_link_class(games_path) %>
+    </li>
+    <li class="nav-item nav-tab">
+      <%= link_to "About", about_path, class: active_nav_link_class(about_path) %>
     </li>
   </ul>
 </div>

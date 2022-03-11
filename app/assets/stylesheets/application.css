@@ -66,6 +66,34 @@ a.nav-link {
 	padding-bottom: 20px !important;
 }
 
+.about-outer-div {
+	display: inline-block;
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-bottom: 10px;
+}
+
+.about-text-div {
+	display: inline-block;
+  float: left;
+  height: auto;
+  padding-right: 10px;
+}
+
+.about-text-content {
+	padding-top: 50%;
+}
+
+.ascii-portrait-div {
+	display: inline-block;
+  float: right;
+	position: relative;
+	bottom: 5%;
+	opacity: 0.4;
+	min-height: 100%;
+	height: auto;
+}
+
 #homepage-label {
 	font-family: 'Big Shoulders Stencil Text', cursive;
 	font-size: 65px;

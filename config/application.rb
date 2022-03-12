@@ -1,7 +1,6 @@
 require_relative 'boot'
 
 require 'rails/all'
-config.assets.initialize_on_precompile = false
 
 Rails::Html::WhiteListSanitizer.allowed_tags << "iframe"
 # Require the gems listed in Gemfile, including any gems

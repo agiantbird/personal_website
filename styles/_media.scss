@@ -182,3 +182,213 @@
         }
     }
 }
+
+@media screen and (max-width: 200px) {
+    .about-container {
+        grid-template-columns: 1fr;
+        .right-about {
+            grid-template-columns: 1fr;
+            padding-top: 2.5rem;
+        }
+
+        .left-about {
+            padding-right: 0;
+            p {
+                padding-left: 0;
+            }
+        }
+    }
+
+    .timeline {
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+
+    .about-stats {
+        .progress-bars {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .portfolios {
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+
+    .blogs {
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+
+    .section {
+        padding: 2rem 2.5rem;
+        padding-bottom: 3rem;
+    }
+
+    .main-title {
+        h2 {
+            font-size: 2rem;
+            span {
+                font-size: 2rem;
+            }
+            .bg-text {
+                font-size: 2.5rem;
+            }
+        }
+    }
+
+    .controls {
+        top: auto;
+        bottom: 0;
+        flex-direction: row;
+        justify-content: center;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        background-color: var(--color-grey5);
+        .control {
+            margin: .2rem;
+        }
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .about-container {
+        grid-template-columns: 1fr;
+        .right-about {
+            grid-template-columns: 1fr;
+            padding-top: 2.5rem;
+        }
+
+        .left-about {
+            padding-right: 0;
+            p {
+                padding-left: 0;
+            }
+        }
+    }
+
+    .timeline {
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+
+    .about-stats {
+        .progress-bars {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .portfolios {
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+
+    .blogs {
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+
+    .section {
+        padding: 2rem 2.5rem;
+        padding-bottom: 3rem;
+    }
+
+    .main-title {
+        h2 {
+            font-size: 2rem;
+            span {
+                font-size: 2rem;
+            }
+            .bg-text {
+                font-size: 2.5rem;
+            }
+        }
+    }
+
+    .controls {
+        top: auto;
+        bottom: 0;
+        flex-direction: row;
+        justify-content: center;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        background-color: var(--color-grey5);
+        .control {
+            margin: .2rem;
+        }
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .about-container {
+        grid-template-columns: 1fr;
+        .right-about {
+            grid-template-columns: 1fr;
+            padding-top: 2.5rem;
+        }
+
+        .left-about {
+            padding-right: 0;
+            p {
+                padding-left: 0;
+            }
+        }
+    }
+
+    .timeline {
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+
+    .about-stats {
+        .progress-bars {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .portfolios {
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+
+    .blogs {
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+
+    .section {
+        padding: 2rem 2.5rem;
+        padding-bottom: 3rem;
+    }
+
+    .main-title {
+        h2 {
+            font-size: 2rem;
+            span {
+                font-size: 2rem;
+            }
+            .bg-text {
+                font-size: 2.5rem;
+            }
+        }
+    }
+
+    .controls {
+        top: auto;
+        bottom: 0;
+        flex-direction: row;
+        justify-content: center;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        background-color: var(--color-grey5);
+        .control {
+            margin: 0;
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+        }
+    }
+}
